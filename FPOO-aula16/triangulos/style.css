@@ -1,0 +1,25 @@
+* {
+  font-family: Verdana;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.triangulos div {
+  display: grid;
+  font-size: 18px;
+  grid-template-columns: repeat(8, 1fr);
+  border-bottom: 2px solid black;
+  margin: 15px;
+  padding: 15px;
+}
+ 

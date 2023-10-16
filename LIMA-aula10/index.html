@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista 1 Exercícios - LIMA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ex1">
+      <header><h1>Exercício 1</h1></header>
+
+      <input type="number" id="number1" placeholder="1° número" />
+      <input type="number" id="number2" placeholder="2° número" />
+      <input type="number" id="number3" placeholder="3° número" />
+
+      <input type="submit" onclick="operation()" />
+
+      <h3 id="resultEx1"></h3>
+    </div>
+
+    <div class="ex2">
+      <header><h1>Exercício 2</h1></header>
+
+      <input type="number" id="speed" placeholder="Velocidade do carro" />
+      <input
+        type="number"
+        id="distance"
+        placeholder="Distância a ser percorrida"
+      />
+
+      <input type="submit" onclick="calculateKmPerHour()" />
+
+      <h3 id="resultEx2"></h3>
+    </div>
+
+    <div class="ex3">
+      <header><h1>Exercício 3</h1></header>
+
+      <input type="text" id="name" placeholder="Nome" />
+      <input type="number" id="salary" placeholder="Salário" />
+      <input type="number" id="index" placeholder="Índice" />
+
+      <input type="submit" onclick="reajust()" />
+
+      <h3 id="resultEx3"></h3>
+    </div>
+
+    <div class="ex4">
+      <header><h1>Exercício 4</h1></header>
+
+      <input type="text" id="club" placeholder="Clube de Futebol" />
+      <input type="number" id="victories" placeholder="Número de Vitórias" />
+      <input type="number" id="draws" placeholder="Número de Empates" />
+
+      <input type="submit" onclick="calculatePoints()" />
+
+      <h3 id="resultEx4"></h3>
+    </div>
+
+    <div class="ex5">
+      <header><h1>Exercício 5</h1></header>
+
+      <input type="number" id="number" placeholder="Digite um Número" />
+
+      <input type="submit" onclick="pastPosNumber()" />
+
+      <h3 id="resultEx5"></h3>
+    </div>
+
+    <div class="ex6">
+      <header><h1>Exercício 6</h1></header>
+
+      <input
+        type="number"
+        id="travel-distance"
+        placeholder="Distância a ser percorrida pelo avião em KM"
+      />
+
+      <input type="submit" onclick="planeHours()" />
+
+      <h3 id="resultEx6"></h3>
+    </div>
+
+    <div class="ex7">
+      <h1>Exercício 7</h1>
+
+      <input type="number" id="trucks" placeholder="Quantidade de Caminhões" />
+      <input
+        type="number"
+        id="alqueiro"
+        placeholder="Quantidade de Alqueiros"
+      />
+
+      <input type="submit" onclick="travelAmount()" />
+
+      <h3 id="resultEx7"></h3>
+    </div>
+
+    <div class="ex8">
+      <h1>Exercício 8</h1>
+
+      <input type="number" id="raio" placeholder="Raio do Cilindro" />
+      <input type="number" id="height" placeholder="Altura do Cilindro" />
+
+      <input type="submit" onclick="cilinderCalculate()" />
+
+      <h3 id="resultEx8"></h3>
+    </div>
+
+    <div class="ex9">
+      <h1>Exercício 9</h1>
+
+      <input type="text" id="mercadoria" placeholder="Nome da Merdacoria" />
+      <input type="number" id="price" placeholder="Preço da Mercadoria" />
+
+      <input type="submit" onclick="priceChanger()" />
+
+      <h3 id="resultEx9"></h3>
+    </div>
+
+    <div class="ex10">
+      <h1>Exercício 10</h1>
+
+      <input type="text" id="city" placeholder="Nome da Cidade" />
+      <input
+        type="number"
+        id="electors"
+        placeholder="Número total de Eleitores"
+      />
+      <input type="number" id="votes" placeholder="Número total de Votos" />
+
+      <input type="submit" onclick="participation()" />
+
+      <h3 id="resultEx10"></h3>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
